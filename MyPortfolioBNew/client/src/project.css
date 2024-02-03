@@ -1,0 +1,62 @@
+#works {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    padding:0 1rem;
+}
+
+.my-work-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 40px 20px;
+}
+
+.my-work-card{
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 10px;    
+}
+
+.my-work-title{
+    margin-top: 20px;
+    color: #646cff;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.my-work-details{
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+.worksTitle{
+    margin: 1rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: #646cff;
+}
+
+.worksDesc {
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+.worksImg{
+    height: 250px;
+    width: 320px;
+}
+
+@media screen and (max-width:585px){
+    .worksImg{
+    height: 50vw;
+}
+}

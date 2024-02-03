@@ -1,0 +1,112 @@
+/* about.css */
+
+#about {
+    display: flex;
+    padding: 60px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.aboutMe {
+    flex: 1;
+}
+
+.my-name{
+    text-align: center;
+    color: #646cff;
+}
+
+.my-resume-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills {
+    flex: 1;
+}
+
+h2 {
+    color: #333;
+}
+
+.headshot {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+.resumeLink {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.resumeLink:hover {
+    background-color: #45a049;
+}
+
+.skillsTitle {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.skillBar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.skillBarImg {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.skillBarText {
+    flex: 1;
+}
+
+.skillBarText h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.skillBarText p {
+    font-size: 16px;
+    color: #555;
+}
+
+.about-image{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    /* padding: 40px; */
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 40px auto;
+}
+
+.my-details{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.about-image img{
+    width: 100%;
+}
